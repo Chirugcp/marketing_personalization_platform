@@ -1,0 +1,7 @@
+{"ts_utc": "2026-03-27T13:02:22.803924+00:00", "stage": "load_records", "latency_ms": 0.91, "record_count": 50}
+{"ts_utc": "2026-03-27T13:02:22.884209+00:00", "stage": "embedding_generation", "latency_ms": 79.71, "record_count": 50, "embedding_dim": 384}
+{"ts_utc": "2026-03-27T13:02:22.886040+00:00", "stage": "vector_index_upsert", "latency_ms": 0.96, "vector_rows": 50, "distinct_users": 12}
+{"ts_utc": "2026-03-27T13:02:22.887363+00:00", "stage": "graph_upsert", "latency_ms": 0.39, "relationship_records": 50}
+{"ts_utc": "2026-03-27T13:02:22.893001+00:00", "stage": "analytics_upsert", "latency_ms": 4.77, "aggregate_rows": 12}
+{"ts_utc": "2026-03-27T13:02:22.893718+00:00", "stage": "cache_refresh", "latency_ms": 0.0, "status": 1}
+{"ts_utc": "2026-03-27T13:02:22.895354+00:00", "stage": "pipeline_complete", "status": "success", "record_count": 50}
