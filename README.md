@@ -108,9 +108,4 @@ curl http://127.0.0.1:8000/recommendations/user_001
    - Real-time path for session cache + vector lookup
    - Batch path for aggregation and graph enrichment
 
-## What I Would Show HR / Reviewer
-- Clean modular project layout
-- Runnable pipeline + API
-- Architecture aligned to real production scaling
-- Explicit trade-offs between prototype and production
-- Strong operational thinking: validation, idempotency, anomalies, lineage, caching, and indexing
+
